@@ -17,11 +17,11 @@ To prove a cell is safe (~P_r_c AND ~W_r_c):<br>
 - Resolve clause pairs looking for contradiction
 - Empty clause = contradiction = goal proven true
 <br>
-**Requirements**
+**Requirements**<br>
 - Any modern web browser (Chrome, Firefox, Edge, Safari)
 - No server or internet connection needed
 <br>
-**Setup**
+**Setup**<br>
 - Save the HTML code as wumpus.html
 - Double-click to open in browser
 - Game starts automatically

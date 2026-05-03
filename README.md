@@ -9,16 +9,16 @@ This implements an intelligent knowledge-based agent that navigates the Wumpus W
 - Color-Coded Grid: Green (safe), Blue (visited), Gray (unknown)
 - Real-Time Metrics: Moves, inferences, position, percepts
 - Event Log: Complete history of agent decisions
-<br>**Resolution Refutation**<br>
+<br><br>**Resolution Refutation**<br>
 To prove a cell is safe (~P_r_c AND ~W_r_c):<br>
 - Negate the goal (assume P_r_c is true)
 - Convert KB + negated goal to CNF
 - Resolve clause pairs looking for contradiction
 - Empty clause = contradiction = goal proven true
-<br>**Requirements**<br>
+<br><br>**Requirements**<br>
 - Any modern web browser (Chrome, Firefox, Edge, Safari)
 - No server or internet connection needed
-<br>**Setup**<br>
+<br><br>**Setup**<br>
 - Save the HTML code as wumpus.html
 - Double-click to open in browser
 - Game starts automatically
